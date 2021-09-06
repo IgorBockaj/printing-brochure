@@ -17,8 +17,8 @@ function Home() {
         </h1>
         <h3>Print, termotisak, sitotisak, kumpjutersko izrezivanje</h3>
         <p>
-          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-          consectetur, adipisci velit...
+          Zagarantirana prilagodljivost, ugodna suradnja i kompletna provedba
+          Vaših želja!
         </p>
         <button onClick={() => handleLink()}>
           Zapratite nas <FontAwesomeIcon icon={faFacebook} />
