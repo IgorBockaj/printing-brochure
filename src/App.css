@@ -29,7 +29,6 @@ body {
 }
 
 @media (max-width: 300px) {
-  .container,
   .content {
     height: fit-content;
     width: 90%;
