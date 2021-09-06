@@ -28,9 +28,10 @@ body {
   padding: 20px;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
+  .container,
   .content {
     height: fit-content;
-    width: 90%;
+    width: 100%;
   }
 }

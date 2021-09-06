@@ -54,7 +54,7 @@
   width: 90%;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .navbar,
   .links {
     flex-direction: column;
@@ -62,5 +62,9 @@
 
   .logo {
     margin-bottom: 20px;
+  }
+
+  .link {
+    margin-bottom: 10px;
   }
 }

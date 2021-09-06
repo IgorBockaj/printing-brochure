@@ -73,15 +73,27 @@
   width: 70%;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .home {
+    display: flex;
     flex-direction: column;
-    height: fit-content;
-    width: 100%;
+    align-items: center;
   }
 
-  .home-desc,
+  .home-desc {
+    width: 70%;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
   .home-img {
-    width: 100%;
+    align-items: center;
+  }
+
+  .home-desc h1,
+  .home-desc h3,
+  .home-desc p {
+    margin-bottom: 20px;
+    word-wrap: break-word;
   }
 }
