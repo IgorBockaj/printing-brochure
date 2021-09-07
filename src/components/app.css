@@ -8,6 +8,7 @@
 
 body {
   height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,11 +20,13 @@ body {
   height: 80vh;
   width: 70vw;
   position: relative;
+  padding-bottom: 20px;
 }
 
 .content {
   border: 3px solid red;
   height: 100%;
+  width: 100%;
   padding: 20px;
 }
 

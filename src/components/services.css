@@ -1,0 +1,103 @@
+.services {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.service-types {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url("../img/calendar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px;
+  opacity: 0.4;
+}
+
+.service-types h2 {
+  margin: 20px 0;
+  position: relative;
+}
+
+.service-types h2::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: red;
+  top: 100%;
+  left: 0;
+}
+
+.type {
+  font-size: 19px;
+  list-style: square;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button-gallery {
+  width: 40%;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: red;
+  text-transform: uppercase;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 3px;
+  border: none;
+  cursor: pointer;
+  transition: 0.15s all linear;
+}
+
+.button-gallery:active {
+  transform: scale(0.9);
+}
+
+@media (max-width: 900px) {
+  .service-types {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-types div {
+    width: 50%;
+  }
+
+  .button-gallery {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .service-types {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .background {
+    background-size: contain;
+  }
+
+  .button-gallery {
+    width: 200px;
+  }
+}
