@@ -10,9 +10,9 @@
   text-transform: uppercase;
 }
 
-.logo {
-  font-size: 30px;
-  letter-spacing: 5px;
+.logo img {
+  height: 50px;
+  width: 150px;
 }
 
 .logo span {

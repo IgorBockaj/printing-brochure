@@ -3,18 +3,19 @@ import "./home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import printer from "../img/printer.png";
+import logo from "../img/2.jpg";
 
 function Home() {
   const handleLink = () => {
-    window.open("https://www.facebook.com/profile.php?id=100016913022330");
+    window.open(
+      "https://www.facebook.com/POS-obrt-za-grafiku-i-usluge-1193402927484758"
+    );
   };
 
   return (
     <div className="home">
       <div className="home-desc">
-        <h1>
-          <span>P</span>rinting <span>O</span>.<span>S</span>.
-        </h1>
+        <img src={logo} alt="" />
         <h3>Print, termotisak, sitotisak, kumpjutersko izrezivanje</h3>
         <p>
           Zagarantirana prilagodljivost, ugodna suradnja i kompletna provedba

@@ -38,6 +38,11 @@
   background-color: red;
 }
 
+.home-desc img {
+  height: 100px;
+  width: 250px;
+}
+
 .home-desc span {
   color: red;
 }
