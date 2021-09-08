@@ -21,7 +21,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .service-types h2 {
@@ -71,6 +71,7 @@
 
 @media (max-width: 900px) {
   .service-types {
+    padding-left: 20px;
     width: 90vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -87,6 +88,7 @@
 
 @media (max-width: 500px) {
   .service-types {
+    padding: 0;
     width: 80vw;
     display: grid;
     grid-template-columns: 1fr;

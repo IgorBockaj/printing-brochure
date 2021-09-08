@@ -15,7 +15,6 @@ function Home() {
   return (
     <div className="home">
       <div className="home-desc">
-        <img src={logo} alt="" />
         <h3>Print, termotisak, sitotisak, kumpjutersko izrezivanje</h3>
         <p>
           Zagarantirana prilagodljivost, ugodna suradnja i kompletna provedba
@@ -26,7 +25,7 @@ function Home() {
         </button>
       </div>
       <div className="home-img">
-        <img src={printer} alt="printer" />
+        <img src={logo} alt="printer" />
       </div>
     </div>
   );
