@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .home-desc {
@@ -56,6 +57,15 @@
   width: 400px;
 }
 
+.home-backgroud {
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top left, white 70%, red);
+  opacity: 0.6;
+}
+
 @media (max-width: 900px) {
   .home {
     padding-top: 20px;
@@ -99,5 +109,9 @@
     width: 90%;
     padding: 0;
     margin: 10px;
+  }
+
+  .home-backgroud {
+    background-image: linear-gradient(to bottom, white 60%, red);
   }
 }

@@ -6,6 +6,7 @@ import logo from "../img/2.jpg";
 function Home() {
   return (
     <div className="home">
+      <div className="home-backgroud"></div>
       <div className="home-desc">
         <h3>Print, termotisak, sitotisak, kumpjutersko izrezivanje</h3>
         <p>
